@@ -37,22 +37,6 @@ dependencies {
     compile("org.springframework.boot:spring-boot-starter-web")
     providedRuntime("org.springframework.boot:spring-boot-starter-tomcat")
     
-	// ThymeLeaf
-    compile("org.springframework.boot:spring-boot-starter-thymeleaf")
-    
-    // JPA
-    compile("org.springframework.boot:spring-boot-starter-data-jpa")
-    compile("mysql:mysql-connector-java")
-    
-    // MongoDB
-	compile("org.springframework.boot:spring-boot-starter-data-mongodb")
-    
-    // Actuator
-    compile("org.springframework.boot:spring-boot-starter-actuator")
-    
-    // Remote Shell
-    compile("org.springframework.boot:spring-boot-starter-remote-shell")
-        
     // Test
     testCompile("org.springframework.boot:spring-boot-starter-test")
 }
